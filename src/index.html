@@ -1,10 +1,22 @@
 <html></html>
   <head>
     <title>My Electron App</title>
+  <link rel="stylesheet" href="./main.css">
   </head>
   <body>
     <h1>Hello, Electron!</h1>
+    <div class="userInput">
+    <input type="text" placeholder="title" id="title">
+    <input type="text" placeholder="content" id="content">
+    <button id="submitBtn">Submit</button>
+    </div>
+    <ul>
+      <li id="listTemplate" >
+        <h2 class="title"></h2>
+        <p class="content"></p>
+      </li>
+    </ul>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
