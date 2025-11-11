@@ -22,3 +22,21 @@ button{
     flex-direction: column;
     align-items: center;
 }
+
+#listTemplate{
+    margin-top: 30px;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#listTemplate li{
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+}
